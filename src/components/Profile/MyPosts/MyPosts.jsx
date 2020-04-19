@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './MyPosts.css';
+import s from './MyPosts.module.css';
 import Post from "./Post/Post";
 
 const MyPosts = (props) => {
@@ -9,11 +9,11 @@ const MyPosts = (props) => {
                 Create Post
             </div>
             <div>
-                <Post/>
-                <Post/>
+                <Post id="0"/>
+                <Post id="1"/>
             </div>
         </div>
     );
-}
+};
 
 export default MyPosts;
