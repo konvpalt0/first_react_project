@@ -3,8 +3,8 @@ import s from './Profile.module.css';
 
 const Profile = () => {
     return (
-        <div className={s.content}>
-            <div>
+        <div className={s.wrapper}>
+            <div className={s.content}>
                 <div>
                     <div >
                         <img src="" alt=""/>
