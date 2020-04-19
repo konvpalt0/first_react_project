@@ -3,13 +3,11 @@ import s from './Profile.module.css';
 import Header from "./Header/Header";
 import MyPosts from "./MyPosts/MyPosts";
 
-const Profile = () => {
+const Profile = (props) => {
     return (
-        <div className={s.wrapper}>
-            <div className={s.content}>
-                <Header/>
-                <MyPosts/>
-            </div>
+        <div className={s.content}>
+            <Header/>
+            <MyPosts/>
         </div>
     );
 }
